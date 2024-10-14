@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero"
 import Navbar from "@/components/Navbar"
+import HOW_IT_WORKS from "@/components/HowItWorks"
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
+      <HOW_IT_WORKS />
     </div>
   )
 }
