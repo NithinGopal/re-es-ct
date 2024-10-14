@@ -2,6 +2,7 @@ import Hero from "@/components/Hero"
 import Navbar from "@/components/Navbar"
 import HOW_IT_WORKS from "@/components/HowItWorks"
 import FeatureProperty from "@/components/FeatureProperty"
+import Services from "@/components/Services"
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <HOW_IT_WORKS />
       <FeatureProperty />
+      <Services />
     </div>
   )
 }
