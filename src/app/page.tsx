@@ -4,6 +4,9 @@ import HOW_IT_WORKS from "@/components/HowItWorks"
 import FeatureProperty from "@/components/FeatureProperty"
 import Services from "@/components/Services"
 import AboutUs from "@/components/AboutUs"
+import Testimonials from "@/components/Testimonials"
+import Faq from "@/components/Faq"
+import Footer from "@/components/Footer"
 
 
 const Home = () => {
@@ -15,6 +18,9 @@ const Home = () => {
       <FeatureProperty />
       <Services />
       <AboutUs />
+      <Testimonials />
+      <Faq />
+      <Footer />
     </div>
   )
 }
